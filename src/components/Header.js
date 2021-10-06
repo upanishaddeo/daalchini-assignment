@@ -8,10 +8,10 @@ export class Header extends Component {
             <div className="navbarContainer">
                 <div className="hero-logo"><img src={heroLogo} alt="daalchini logo" /></div>
                 <div className="nav-elements-wrap">
-                    <div className="active"><a href="#">Home</a></div>
-                    <div><a href="#">Products</a></div>
-                    <div><a href="#">Explore</a></div>
-                    <div><a href="#">Store</a></div>
+                    <div className="active"><a href="/">Home</a></div>
+                    <div><a href="/">Products</a></div>
+                    <div><a href="/">Explore</a></div>
+                    <div><a href="/">Store</a></div>
                 </div>
                 <div className="button-div">
                     <button className="buttonLogin">Login or sign up</button>

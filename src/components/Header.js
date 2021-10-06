@@ -6,7 +6,7 @@ export class Header extends Component {
     render() {
         return (
             <div className="navbarContainer">
-                <div className="hero-logo"><img src={heroLogo} /></div>
+                <div className="hero-logo"><img src={heroLogo} at="daalchini logo" /></div>
                 <div className="nav-elements-wrap">
                     <div className="active"><a href="#">Home</a></div>
                     <div><a href="#">Products</a></div>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+.homeContainer{
+    padding: 30px 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.dataFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.category-flex select{
+    padding: 0px 44px;
+    cursor: pointer;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    background-color: #552a53;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+.ModalBody{
+    position: absolute;
+    outline: none;
+    top: 50%;
+    border: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: white;
+    box-shadow: 1px 1px 70px #b3b0b0;
+    padding-right: 53px !important;
+    padding-left: 53px !important;
+}
+.modalFlex{
+    display: flex;
+    flex-direction: row;
+}
+.ModalImage img{
+    width: 300px;
+    height: auto;
+}
+.ModalDescription {
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.ModalPriceFLex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.ModalHeading {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #552a53;
+}
+.ModalClose {
+    padding: 10px 20px;
+    border-style: none;
+    background-color: #552a53;
+    border-radius: 5px;
+    color: white;
+    transition: 300ms;
+}
+.ModalClose:hover{
+    box-shadow: 1px 1px 13px #552a53;
+    cursor: pointer;
+}
+.ModalHeading span{
+    font-weight: 600;
+    color: #757575;
+    font-size: 14px;
+}
+.ModalDesc span{
+    font-weight: 600;
+    color: #757575;
+    font-size: 14px;
+}
+.ModalPrice span{
+    font-weight: 600;
+}
+.ModalDesc {
+    color: #585757;
+}

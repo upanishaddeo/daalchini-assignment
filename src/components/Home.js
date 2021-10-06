@@ -72,7 +72,7 @@ export class Home extends Component {
                         <Modal.Body>
                             <div className="modalContent">
                                 <div className="modalFlex">
-                                    <div className="ModalImage"><img src={dataModal.image} /></div>
+                                    <div className="ModalImage"><img src={dataModal.image} alt={dataModal.title} /></div>
                                     <div className="ModalDescription">
                                         <div className="ModalHeading"><span>Product Name:</span> <br /> {dataModal.title}</div>
                                         <div className="ModalDesc"><span>Product description:</span> <br />{dataModal.description}</div>

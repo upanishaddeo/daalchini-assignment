@@ -7,7 +7,7 @@ export class ProductCard extends Component {
         
         return (
             <div className="cardContainer" key={this.props.id}>
-                <div className="cardImage"><img src={this.props.image} /></div>
+                <div className="cardImage"><img src={this.props.image} alt={this.props.title} /></div>
                 <div className="cardDetails">
                     <div className="cardTitle">{this.props.title}</div>
                     <div className="cardBottom">

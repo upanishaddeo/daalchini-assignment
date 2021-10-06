@@ -45,3 +45,47 @@
     cursor: pointer;
     box-shadow: 0px 0px 27px rgb(61 61 61);
 }
+
+@media (max-width: 550px) {
+    .navbarContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 215px;
+        background-color: #531253;
+        padding: 10px 100px;
+        font-family: "Poppins",sans-serif;
+    }
+    .homeContainer {
+        padding: 0px !important;
+        font-family: 'Poppins', sans-serif;
+    }
+    .category-flex select {
+        padding: 16px 44px !important;
+        cursor: pointer;
+        margin: 20px;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        background-color: #552a53;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+        appearance: none;
+    }
+    .nav-elements-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 290px;
+        justify-content: space-around;
+    }
+    .nav-elements-wrap a {
+        margin-right: 0px !important;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+  }
